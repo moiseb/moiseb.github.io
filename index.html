@@ -71,23 +71,58 @@
 
     <hr>
 
+
     <h4> Research </h4>
+
+
+    <style>
+    /* Define a custom marker for the nested list */
+    .square ol::before {
+        content: "\27A2"; /* Unicode for heavy bullet */
+        margin-right: 8px; /* Adjust spacing between bullet and content */
+        margin-left: 20px; /* Add spacing within the bullet */
+    }
+
+    /* Remove default padding for <ul> and <li> elements */
+    .square {
+        padding-left: 0;
+    }
+
+    .square ol {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Adjust spacing between paragraphs */
+    .outer-ol p {
+        margin: 4px 0; /* Top and bottom margin */
+    }
+    </style>
+
+
     <ul>
             <li>
                 <a href="https://arxiv.org/abs/2306.10096">Memory-Constrained Algorithms for Convex Optimization via Recursive Cutting-Planes</a>
                 <br>Moïse Blanchard, Junhui Zhang, and Patrick Jaillet
+                <br>Submitted to Neural Information Processing Systems (NeurIPS), 2023
+            </li>
+
+            <li>
+                <a href="https://arxiv.org/abs/2308.01896">Tight Bounds for Local Glivenko-Cantelli</a>
+                <br>Moïse Blanchard and Václav Voráček
                 <br>2023
             </li>
 
             <li>
                 <a href="https://arxiv.org/abs/2302.07186">Adversarial Rewards in Universal Learning for Contextual Bandits</a>
                 <br>Moïse Blanchard, Steve Hanneke, and Patrick Jaillet
-                <br>2023
+                <br>Submitted to Journal of Machine Learning Research, 2023
             </li>
 
 
             <li>
-                <a href="https://arxiv.org/abs/2302.04963">Quadratic Memory is Necessary for Optimal Query Complexity in Convex Optimization: Center-of-Mass is Pareto-Optimal</a>
+                <a href="https://proceedings.mlr.press/v195/blanchard23a.html">Quadratic Memory is Necessary for Optimal Query Complexity in Convex Optimization: Center-of-Mass is Pareto-Optimal</a>
                 <br>Moïse Blanchard, Junhui Zhang, and Patrick Jaillet
                 <br>36th Annual Conference on Learning Theory (COLT), 2023
             </li>
@@ -99,22 +134,32 @@
             </li>
 
             <li>
-                <a href="https://arxiv.org/abs/2212.12057">Fréchet Mean Set Estimation in the Haussdorff Metric, via Relaxation</a>
-                <br>Moïse Blanchard and Adam Jaffe
-                <br>Submitted to Bernoulli, 2022
-            </li>
-
-            <li>
                 <a href="https://arxiv.org/abs/2203.05067">Universal Regression with Adversarial Responses</a>
                 <br>Moïse Blanchard and Patrick Jaillet
                 <br>Accepted, Annals of Statistics, 2022
+                <ul class="square" style="margin: 0; padding: 0;">
+                    <ol>
+                        <strong>Best presentation award, LIDS Conference, MIT</strong>
+                    </ol>
+                </ul>
             </li>
             <li>
                 <a href="https://proceedings.mlr.press/v178/blanchard22b.html">Universal Online Learning: an Optimistically Universal Learning Rule</a>
                 <br>Moïse Blanchard
                 <br>35th Annual Conference on Learning Theory (COLT), 2022
-                <br><strong>Best student paper runner-up.</strong>
+                <ul class="square" style="margin: 0; padding: 0;">
+                    <ol>
+                        <strong>Best student paper runner-up, COLT 2022</strong>
+                    </ol>
+                </ul>
             </li>
+
+            <li>
+                <a href="https://arxiv.org/abs/2212.12057">Fréchet Mean Set Estimation in the Haussdorff Metric, via Relaxation</a>
+                <br>Moïse Blanchard and Adam Jaffe
+                <br>Major revision at Bernoulli, 2022
+            </li>
+
             <li>
                 <a href="https://proceedings.mlr.press/v178/blanchard22a.html">Universal Online Learning with Bounded Loss: Reduction to Binary Classification</a>
                 <br>Moïse Blanchard and Romain Cosson
@@ -130,16 +175,23 @@
                 <br>Moïse Blanchard, Romain Cosson, and Steve Hanneke
                 <br>33rd International Conference on Algorithmic Learning Theory (ALT), 2022
             </li>
+
             <li>
-                <a href="https://arxiv.org/abs/2211.11063">Probabilistic bounds on the k-Traveling Repairman Problem and the k-Traveling Salesman Problem</a>
+                <a href="https://pubsonline.informs.org/doi/10.1287/moor.2021.0286">Probabilistic bounds on the k-Traveling Repairman Problem and the k-Traveling Salesman Problem</a>
                 <br>Moïse Blanchard, Alexandre Jacquillat, and Patrick Jaillet
                 <br>Accepted, Mathematics of Operations Research, 2021
                 <a href ="https://arxiv.org/abs/2211.11065">Additional Results and Extensions</a>
             </li>
+
             <li>
                 <a href="https://epubs.siam.org/doi/abs/10.1137/20M1315646">On the length of monotone paths in polyhedra</a>
                 <br>Moïse Blanchard and Jesus De Loera
                 <br>SIAM Journal on Discrete Mathematics 35 (3), 2021
+                <ul class="square" style="margin: 0; padding: 0;">
+                    <ol>
+                        <strong>Winner of Rivot Medal for outstanding research, French Science Academia</strong>
+                    </ol>
+                </ul>
             </li>
 
     <hr>
@@ -155,7 +207,10 @@
             <br> Teaching Assistant</br>
         </li>
 
-
+        <li>
+            Classes Préparatoires, Mathematics, 2017-2019
+            <br> Instructor in mathematics for French undergraduate students</br>
+        </li>
     </ul>
 
     <hr>
@@ -163,7 +218,8 @@
 
     <h4> Recent Talks </h4>
     <ul>
-        <li> ''Memory-constrained convex optimization: is cutting-planes optimal?'', Invited talk at TTIC (Toyota Technological Institute at Chicago)</li>
+        <li> ''Memory-constrained convex optimization: is cutting-planes optimal?'', Invited talk at TTIC (Toyota Technological Institute at Chicago), 2023</li>
+        <li> ''Quadratic memory is necessary for optimal query complexity in convex optimization: Center-of-mass is Pareto-optimal'', COLT 2023</li>
         <li> ''Universal Regression with Adversarial Responses'', INFORMS Annual Meeting 2022</li>
         <li> ''Learnability in universal online learning and adversarial regression'', Invited talk at Université Pierre et Marie Curie, Laboratoire Jacques-Louis Lions GTT, 2022</li>
         <li> ''Universal Online Learning: an Optimistically Universal Learning Rule'', COLT 2022 (<a href="https://slideslive.com/38985600/universal-online-learning-an-optimistically-universal-learning-rule?ref=search-presentations-universal+learning">Video</a>)</li>
@@ -179,15 +235,16 @@
 
     <h4> Awards and Honors </h4>
     <ul>
-        <li>Bronze medal, <a href="https://damo.alibaba.com/alibaba-global-mathematics-competition">Alibaba Global Mathematics Competition</a>, 2022</li>
+        <li>Air Force Office of Scientific Research Grant (AFOSR), Information and Networks (RTA2), with Prof. Patrick Jaillet</li>
         <li>
             <a href="http://learningtheory.org/colt2022/awards.html">COLT 2022</a> Best student paper runner-up, 2022
             <br>Paper: <b>Universal online learning: an Optimistically universal learning rule</b>
         </li>
         <li>
             Best Presentation at <a href="https://lidsconf.mit.edu/2022/">LIDS Student Conference</a>, MIT, 2022
-            <br>Paper: <b>Universal online learning</b> (with Romain Cosson and Steve Hanneke)
+            <br>Paper: <b>Universal Regression with Adversarial Responses</b> (with Prof. Patrick Jaillet)
         </li>
+        <li>Bronze medal, <a href="https://damo.alibaba.com/alibaba-global-mathematics-competition">Alibaba Global Mathematics Competition</a>, 2022</li>
         <li>Honorable Mention, <a href="https://damo.alibaba.com/alibaba-global-mathematics-competition/?">Alibaba Global Mathematics Competition</a>, 2021</li>
         <li>2nd Prize, <a href="https://www.citadel.com/careers/the-data-open/?">The East Coast Data Open</a> by Citadel, 2020</li>
         <li>
@@ -196,7 +253,7 @@
         </li>
         <li>
             Rivot medal, French Science Academia, 2019
-            <br>Best student research for the paper: <b>On the length of monotone paths in polyhedra</b> (with Jesus De Loera)</br>
+            <br>Best student research for the paper: <b>On the length of monotone paths in polyhedra</b> (with Prof. Jesus De Loera and Prof. Quentin Louveaux)</br>
         </li>
         <li>Bronze Medal, 46th International Physics Olympiad (<a href="https://ipho-unofficial.org/">IPhO</a>), 2015</li>
         <li>Bronze Medal, 55th International Mathematics Olympiad (<a href="http://imo-official.org/">IMO</a>), 2014</li>
